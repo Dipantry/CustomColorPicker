@@ -13,6 +13,7 @@
 		2B82C84C258ED1D500FFF893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B82C84A258ED1D500FFF893 /* Main.storyboard */; };
 		2B82C84E258ED1D600FFF893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B82C84D258ED1D600FFF893 /* Assets.xcassets */; };
 		2B82C851258ED1D600FFF893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B82C84F258ED1D600FFF893 /* LaunchScreen.storyboard */; };
+		2B82C85A258ED79700FFF893 /* ColorPickerImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B82C859258ED79700FFF893 /* ColorPickerImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2B82C84D258ED1D600FFF893 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B82C850258ED1D600FFF893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B82C852258ED1D600FFF893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B82C859258ED79700FFF893 /* ColorPickerImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2B82C84D258ED1D600FFF893 /* Assets.xcassets */,
 				2B82C84F258ED1D600FFF893 /* LaunchScreen.storyboard */,
 				2B82C852258ED1D600FFF893 /* Info.plist */,
+				2B82C859258ED79700FFF893 /* ColorPickerImageView.swift */,
 			);
 			path = CustomColorPicker;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B82C85A258ED79700FFF893 /* ColorPickerImageView.swift in Sources */,
 				2B82C849258ED1D500FFF893 /* ViewController.swift in Sources */,
 				2B82C845258ED1D500FFF893 /* AppDelegate.swift in Sources */,
 				2B82C847258ED1D500FFF893 /* SceneDelegate.swift in Sources */,
