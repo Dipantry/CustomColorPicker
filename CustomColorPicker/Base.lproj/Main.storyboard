@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mor-8X-WtE">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gambar" translatesAutoresizingMaskIntoConstraints="NO" id="mor-8X-WtE" customClass="ColorPickerImageView" customModule="CustomColorPicker" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="44" width="414" height="414"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="mor-8X-WtE" secondAttribute="height" multiplier="1:1" id="KZ7-A0-31l"/>
@@ -44,7 +44,7 @@
                     </view>
                     <connections>
                         <outlet property="colorView" destination="0wC-SV-IOh" id="kcc-2F-XyD"/>
-                        <outlet property="imageView" destination="mor-8X-WtE" id="uRF-rA-8Mm"/>
+                        <outlet property="imageView" destination="mor-8X-WtE" id="5DT-Mh-YbQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -53,6 +53,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Gambar" width="1280" height="720"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

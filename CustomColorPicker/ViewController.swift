@@ -7,15 +7,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, ColorPickerImageViewDelegate {
     
-    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var imageView: ColorPickerImageView!
     @IBOutlet weak var colorView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        imageView.delegate = self
     }
-
+    
+    func didPickColor(with color: UIColor, in imageView: UIImageView) {
+        colorView.backgroundColor = color
+    }
 }
 
